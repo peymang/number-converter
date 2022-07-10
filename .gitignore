@@ -238,3 +238,6 @@ gradle-app.setting
 
 
 # End of https://www.gitignore.io/api/macos,gradle,intellij,androidstudio
+/.idea/.gitignore
+/gradle/wrapper/gradle-wrapper.jar
+/.idea/jarRepositories.xml
