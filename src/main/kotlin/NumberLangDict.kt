@@ -1,4 +1,4 @@
-interface NumberDictLang {
+interface NumberLangDict {
     fun notValidNum(): String
     fun zero(): String
     fun delimiter(): String

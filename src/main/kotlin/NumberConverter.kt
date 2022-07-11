@@ -5,13 +5,13 @@
 class NumberConverter {
     companion object {
         /**
-         * @param number must a valid otherwise return [NumberDictLang.zero]
-         * @param number with [NumberDictLang.maxInt] for integer part and [NumberDictLang.maxDec] for decimal part
-         * @exception number integer part if is bigger than [NumberDictLang.maxInt] return [NumberDictLang.outOfBound] string
-         * @exception number integer part if is bigger than [NumberDictLang.maxDec] return [NumberDictLang.outOfBound] string
-         * @exception number if is not valid return [NumberDictLang.zero]
+         * @param number must a valid otherwise return [NumberLangDict.zero]
+         * @param number with [NumberLangDict.maxInt] for integer part and [NumberLangDict.maxDec] for decimal part
+         * @exception number integer part if is bigger than [NumberLangDict.maxInt] return [NumberLangDict.outOfBound] string
+         * @exception number integer part if is bigger than [NumberLangDict.maxDec] return [NumberLangDict.outOfBound] string
+         * @exception number if is not valid return [NumberLangDict.zero]
          */
-        fun toWord(number: String, dict: NumberDictLang): String {
+        fun toWord(number: String, dict: NumberLangDict): String {
             if (!number.isNumber()
             ) return dict.notValidNum()
 
@@ -65,7 +65,7 @@ class NumberConverter {
         /**
          * get number sign if you use "+" it's return positive and come in final output
          */
-        private fun getSignWord(number: String, dict: NumberDictLang): String =
+        private fun getSignWord(number: String, dict: NumberLangDict): String =
             when (number.substring(0, 1)) {
                 "+" -> "${dict.positive()} "
                 "-" -> "${dict.negative()} "
@@ -76,7 +76,7 @@ class NumberConverter {
          * @param zeroFactor The count of zeros that a number can have depending on its position
          * @param dict dictionary to convert numbers to letters
          */
-        private fun getIntWord(number: String, zeroFactor: Int, dict: NumberDictLang): String {
+        private fun getIntWord(number: String, zeroFactor: Int, dict: NumberLangDict): String {
             var n100 = ""
             var n10 = ""
             var n1 = ""

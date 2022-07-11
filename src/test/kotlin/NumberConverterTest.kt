@@ -33,7 +33,7 @@ class NumberConverterTest {
 
     @Test
     fun toWordPersian() {
-        val numDict = NumberDictLangPersian()
+        val numDict = NumberLangDictPersian()
         fun String.toWord(): String = NumberConverter.toWord(this, numDict)
 
         assertEquals("یک", "1".toWord())
@@ -64,7 +64,7 @@ class NumberConverterTest {
 
     @Test
     fun toWordEnglishTraditional() {
-        val numDict = NumberDictLangEnglishTraditional()
+        val numDict = NumberLangDictEnglishTraditional()
         fun String.toWord(): String = NumberConverter.toWord(this, numDict)
 
         assertEquals("one", "1".toWord())

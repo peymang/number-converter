@@ -1,4 +1,4 @@
-class NumberDictLangPersian() : NumberDictLang {
+class NumberLangDictPersian() : NumberLangDict {
     override fun notValidNum(): String = notValidNum
     override fun zero(): String = zero
     override fun delimiter(): String = delimiter
