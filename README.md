@@ -34,8 +34,6 @@ If you use a number longer than return [NumberLangDict.outOfBound] and if number
 [NumberConverter.notValidNum]
 را بر می گرداند
 
-اتفاق می افتد
-
 ## test :)
 A real programmer uses `in-production` test method, which causes more excitement and adrenaline release, resulting in physical health and mental damage.
 
