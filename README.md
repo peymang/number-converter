@@ -40,7 +40,7 @@ A real programmer uses `in-production` test method, which causes more excitement
 
 ## for those who not 
 ```kotlin
-        // to english word
+// to english word
 val numDict = NumberLangDictEnglishTraditional()
 fun String.toWord(): String = NumberConverter.toWord(this, numDict)
 
