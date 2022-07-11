@@ -6,7 +6,7 @@ plugins {
     `maven-publish`
 }
 
-group = "ir.nanachi"
+group = "com.github.peymang"
 version = "2.0"
 
 repositories {
@@ -32,7 +32,7 @@ application {
 publishing {
     publications {
         create<MavenPublication>("maven") {
-            groupId = "ir.nanachi"
+            groupId = "com.github.peymang"
             artifactId = "number-converter"
             version = "2.0"
 
