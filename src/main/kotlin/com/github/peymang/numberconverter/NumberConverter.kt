@@ -7,11 +7,11 @@ package com.github.peymang.numberconverter
 class NumberConverter {
     companion object {
         /**
-         * @param number must a valid otherwise return [NumberLangDict.zero]
+         * @param number must a valid otherwise return [NumberLangDict.notValidNum]
          * @param number with [NumberLangDict.maxInt] for integer part and [NumberLangDict.maxDec] for decimal part
          * @exception number integer part if is bigger than [NumberLangDict.maxInt] return [NumberLangDict.outOfBound] string
          * @exception number integer part if is bigger than [NumberLangDict.maxDec] return [NumberLangDict.outOfBound] string
-         * @exception number if is not valid return [NumberLangDict.zero]
+         * @exception number if is not valid return [NumberLangDict.notValidNum]
          */
         fun toWord(number: String, dict: NumberLangDict): String {
             if (!number.isNumber()
