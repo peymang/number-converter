@@ -7,7 +7,7 @@ language
 * english traditional
 * english modern
 * persian
-* custom(your can get one dictionary and change it as you wish, send me your dictionary if you love add it to this repo)
+* custom(you can get one dictionary and change it as you wish, send me your dictionary if you love add it to this repo)
 
 ## usage
 pass number in string and return the word equivalent to that number in Persian
