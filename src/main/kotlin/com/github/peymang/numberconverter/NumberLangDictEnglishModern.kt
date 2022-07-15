@@ -1,3 +1,5 @@
+package com.github.peymang.numberconverter
+
 class NumberLangDictEnglishModern() : NumberLangDict {
     override fun notValidNum(): String = notValidNum
     override fun zero(): String = zero

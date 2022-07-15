@@ -1,3 +1,5 @@
+package com.github.peymang.numberconverter
+
 interface NumberLangDict {
     fun notValidNum(): String
     fun zero(): String

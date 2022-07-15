@@ -1,4 +1,7 @@
-import NumberConverter.Companion.isNumber
+import com.github.peymang.numberconverter.NumberConverter
+import com.github.peymang.numberconverter.NumberConverter.Companion.isNumber
+import com.github.peymang.numberconverter.NumberLangDictEnglishTraditional
+import com.github.peymang.numberconverter.NumberLangDictPersian
 import org.junit.Test
 import kotlin.test.assertEquals
 
