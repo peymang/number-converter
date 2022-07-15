@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "com.github.peymang"
-version = "2.0"
+version = "v3.0"
 
 repositories {
     mavenCentral()
@@ -34,7 +34,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.github.peymang"
             artifactId = "number-converter"
-            version = "2.0"
+            version = "3.0"
 
             from(components["java"])
         }
