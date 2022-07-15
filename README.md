@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/peymang/number-converter.svg)](https://jitpack.io/#peymang/number-converter)
+
 # number-converter
 convert number to word
 
@@ -17,6 +19,25 @@ NumberConverter.toWord("number in string" , "number dictionary")
 // return "one point one"
 NumberConverter.toWord("1.1", NumberLangDictEnglishTraditional())
 ```
+## setup
+Step 1. Add the JitPack repository to your build file
+Add it in your root build.gradle at the end of repositories:
+```gradle
+allprojects {
+		repositories {
+            ...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+Step 2. Add the dependency
+```gradle
+dependencies {
+	        implementation 'com.github.peymang:number-converter:4.0'
+	}
+```
+
 
 
 ## feature
